@@ -5,19 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal HC</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
   <div class="background-blur-wrapper">
     <header>
       <img src="./img/logo.png" alt="Logo" class="logo">
-      <nav>
+
+      <!-- Menu hamburguer (visível apenas em telas pequenas) -->
+      <button class="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menu de navegação -->
+      <nav class="nav-menu">
         <a href="#">HOME</a>
         <a href="./assets/contato.html">CONTATO</a>
         <a href="./assets/faq.html">FAQ</a>
         <a href="./assets/equipe.html">EQUIPE</a>
       </nav>
-      <div class="login-btn">👤</div>
+
+      <!-- Botão login à direita -->
+      <a href="./assets/login.html" class="login-btn">
+        ENTRE AQUI
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 24 24" style="margin-left: 8px;">
+          <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+        </svg>
+      </a>
     </header>
 
     <main class="main">
@@ -39,5 +56,7 @@
 
     <div class="auxilio-btn">ENCONTRE AUXÍLIO 🌐</div>
   </div>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
