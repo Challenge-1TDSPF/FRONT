@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login do Paciente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../cssLogin/style.css"/>
+  <link rel="stylesheet" href="../cssLogin/responsive.css">
 </head>
 <body>
-    
+  <main class="conteiner">
+    <nav class="voltar-seta" aria-label="Voltar">
+      <a href="../index.html" title="Voltar para página anterior">←</a>
+    </nav>
+
+    <header>
+      <h1 class="titulo-bemvindo">BEM VINDO</h1>
+      <h2 class="area-login">ÁREA DE LOGIN DO PACIENTE</h2>
+    </header>
+
+    <section class="caixa-login">
+      <div class="linha-botoes">
+        <button class="botao-login" onclick="location.href='#'">
+          <img src="https://img.icons8.com/ios-filled/24/ffffff/qr-code.png" alt="Ícone QR Code" />
+          ESCANEAR QRCODE
+        </button>
+        <button class="botao-login" onclick="location.href='#'">
+          <img src="https://img.icons8.com/ios-filled/24/ffffff/key.png" alt="Ícone Chave" />
+          CARTÃO SUS + DATA NASCIMENTO
+        </button>
+      </div>
+
+      <div class="linha-botoes">
+        <button class="botao-login" onclick="location.href='#'">
+          <img src="https://img.icons8.com/ios-filled/24/ffffff/help.png" alt="Ícone Ajuda" />
+          PRECISO DE AJUDA
+        </button>
+        <button class="botao-login" onclick="location.href='https://www.hc.fm.usp.br/'">
+          <img src="https://img.icons8.com/ios-filled/24/ffffff/domain.png" alt="Ícone Site HC-USP" />
+          ENTRAR PELO SITE DO HC-USP
+        </button>
+      </div>
+
+      <div class="linha-centralizada">
+        <button class="botao-chatbot" onclick="location.href='#'">
+          FALE COM NOSSO CHATBOT 
+          <span class="bot">HC ASSISTANT</span>
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo">
+        <img src="../img/logo.png" alt="Logo do HC-USP" />
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
