@@ -55,9 +55,9 @@
         gap: 16px;
         z-index: 1000;
         min-width: 160px;
-        opacity: 0; /* Inicia invisível */
-        transform: translateY(-20px); /* Menu começa deslocado para cima */
-        transition: opacity 0.3s ease, transform 0.3s ease; /* Transição suave */
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
       }
   
       .nav-menu.active {

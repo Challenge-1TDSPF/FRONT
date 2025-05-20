@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  html {
+    background-color: black;
+  }
+  
+  body {
+    display: flex;
+    position: relative;
+    color: #fff;
+    min-height: 100vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      rgba(30, 42, 71, 0.80),
+      rgba(39, 45, 59, 0.76),
+      rgba(30, 42, 71, 0.80)
+    ),
+    url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(12px);
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  .conteiner {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .voltar-seta {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.voltar-seta a {
+    color: white;
+    text-decoration: none;
+}
+  
+  .titulo-bemvindo {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  
+  .area-login {
+    font-size: 18px;
+    color: #f97316;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .caixa-login {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #222;
+    padding: 30px 20px;
+  }
+  
+  .linha-botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .botao-login {
+    flex: 1;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    min-width: 48%;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-login:hover {
+    background-color: #fb923c;
+  }
+  
+  .linha-centralizada {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .botao-chatbot {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 2px 2px 5px #111;
+  }
+  
+  .bot {
+    background-color: #fff;
+    color: #333;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  
+  footer {
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
