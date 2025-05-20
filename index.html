@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha384-">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal HC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header class="navegacao">
-        <div class="logo">
-            <img src="img/logo.png" alt="Logo" />
-        </div>
-        <div class="menu-icon">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+  <div class="background-blur-wrapper">
+    <header>
+      <img src="./img/logo.png" alt="Logo" class="logo">
+      <nav>
+        <a href="#">HOME</a>
+        <a href="./assets/contato.html">CONTATO</a>
+        <a href="./assets/faq.html">FAQ</a>
+        <a href="./assets/equipe.html">EQUIPE</a>
+      </nav>
+      <div class="login-btn">👤</div>
     </header>
 
-    <main>
-        <section class="titulo-bv">
-            <h1>BEM VINDO AO PORTAL DO HC</h1>
-        </section>
-        <section><img src="img/imagem-main.png" alt="Médico imagem." class="img-main"></section>
-        <section class="titulo-main">
-            <h2 class="branco-main">Suporte a sua Saúde</h2>
-            <strong class="laranja-main">Confiável e de Qualidade</strong>
-            <h2 class="branco-main">No conforto da sua casa</h2>
-        </section>
-        <div class="box-main">
-            <p class="p-main">Facilitamos o contato entre usúarios e profissionais, tornando o teleatendimento mais
-                acessível objetivo e eficaz.</p>
-        </div>
+    <main class="main">
+      <div class="main-text">
+        <small>BEM VINDO AO PORTAL DO HC</small>
+        <h1>
+          Suporte a sua Saúde <br>
+          <span class="highlight">Confiável e de Qualidade</span><br>
+          No conforto da sua casa
+        </h1>
+        <p>Facilitamos o contato entre usuários e profissionais, tornando o teleatendimento mais acessível, objetivo e eficaz.</p>
+        <button class="btn">ENCONTRE AJUDA AQUI</button>
+      </div>
+
+      <div class="main-image">
+        <img src="./img/doutor.png" alt="Doutor e Família">
+      </div>
     </main>
 
-    <footer>
-        <div class="border">
-
-        </div>
-    </footer>
+    <div class="auxilio-btn">ENCONTRE AUXÍLIO 🌐</div>
+  </div>
 </body>
-
 </html>
